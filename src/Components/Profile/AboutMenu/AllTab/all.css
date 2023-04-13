@@ -1,0 +1,257 @@
+.heading_of_contact_info h6 {
+    color: var(--color-primary);
+    font-size: 18px;
+}
+
+.heading_of_contact_info {
+    margin-top: 20px;
+}
+
+.item_of_contact {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 20px;
+    color: var(--blue-color);
+}
+
+.item_of_contact i {
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    margin-right: 3px;
+}
+
+.added_email_address .item_of_contact {
+    color: var(--color-primary);
+}
+
+.website_of_user_cc .left_of_web,
+.website_of_user_cc .right_of_web {
+    color: var(--color-primary);
+    font-size: 20px;
+}
+
+.website_of_user_cc .left_of_web a {
+    font-size: 16px;
+}
+
+.website_of_user_cc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.website_of_user_cc .right_of_web i,
+.right_of_social_link_edi i {
+    width: 35px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 3px;
+    cursor: pointer;
+    transition: .2s;
+    display: flex;
+    font-size: 22px;
+    color: var(--color-primary);
+    border-radius: 50%;
+    background-color: var(--bg-third);
+}
+
+.website_of_user_cc .right_of_web i:hover,
+.right_of_social_link_edi i:hover {
+    background: var(--dark-bg-third);
+}
+
+.right_of_web .icon2 {
+    display: flex;
+}
+
+.right_of_social_link_edi {
+    display: flex;
+}
+
+.all_items_of_social_links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_of_social_link_edit {
+    color: var(--color-primary);
+}
+
+.left_of_social_link_edit i {
+    font-size: 20px;
+}
+
+.all_items_of_social_links {
+    margin: 20px 0;
+}
+
+.left_of_social_link_edit span {
+    font-size: 13px;
+    color: var(--color-secondary);
+    font-weight: 400;
+}
+
+.left_of_social_link_edit i {
+    display: flex;
+    align-items: inherit;
+}
+
+.item_of_add_social {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    color: var(--blue-color);
+    cursor: pointer;
+}
+
+.item_of_add_social span {
+    color: var(--blue-color);
+    font-size: 16px;
+}
+
+.item_of_add_social i {
+    font-size: 22px;
+    margin-right: 3px;
+}
+
+.new_social_add_items_ll .all_select_to {
+    margin: 10px 0;
+    display: flex;
+}
+
+.new_social_add_items_ll input,
+.new_social_add_items_ll select {
+    background: var(--bg-forth);
+    color: var(--color-primary);
+    border: 1px solid gray;
+}
+
+.new_social_add_items_ll input::placeholder {
+    color: var(--color-secondary);
+}
+
+.new_social_add_items_ll input:focus-visible {
+    background: var(--bg-third);
+    color: var(--color-primary);
+}
+
+.new_social_add_items_ll .action_to_operation {
+    display: flex;
+    justify-content: end;
+    margin: 10px 0;
+}
+
+.added_social_link_value i {
+    border-radius: 2px;
+    color: var(--color-secondary);
+    padding: 0 2px;
+}
+
+
+.social_items_mm h6 {
+    color: var(--color-primary);
+}
+
+/* Logo SOcial */
+.logo_social_items span {
+    font-size: 20px;
+    display: flex;
+    color: var(--color-secondary);
+    align-items: center;
+}
+
+.title_of_work input {
+    background-color: var(--bg-forth);
+    border: 1px solid gray;
+    color: var(--color-primary);
+}
+
+.title_of_work input:focus-visible {
+    background-color: var(--bg-third);
+    color: var(--color-primary);
+}
+
+.title_of_work input::placeholder {
+    color: var(--color-secondary);
+}
+
+.phone_number_show span {
+    color: var(--color-primary);
+    font-size: 16px;
+}
+
+.phone_number_show span:first-child {
+    font-size: 20px;
+    color: var(--color-secondary);
+    margin-right: 5px;
+}
+
+/* Work Edit  */
+
+
+.work_form_to_submit input,
+.work_form_to_submit textarea {
+    background-color: var(--bg-third);
+    resize: none;
+    border: 1px solid gray;
+    margin: 0 !important;
+    color: var(--color-primary);
+}
+
+.work_form_to_submit input::placeholder,
+.work_form_to_submit textarea::placeholder {
+    color: var(--color-secondary);
+}
+
+.work_form_to_submit input:focus-visible,
+.work_form_to_submit textarea:focus-visible {
+    color: var(--color-primary);
+    background-color: var(--bg-secondary);
+}
+
+.work_form_to_submit label {
+    color: var(--color-secondary);
+    margin-top: 5px;
+}
+
+.action_of_new_work {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+}
+
+.add_work_item_to_acc {
+    color: var(--blue-color);
+    cursor: pointer;
+    width: max-content;
+    margin: 0 5px;
+}
+
+.add_work_item_to_acc i {
+    font-size: 22px;
+    margin-right: 3px;
+}
+
+.work_item_about_ppp {
+    position: relative;
+
+}
+
+.menu_bars_of_work {
+    position: absolute;
+    right: 0;
+    top: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--bg-third);
+    width: 150px;
+    min-height: 100px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

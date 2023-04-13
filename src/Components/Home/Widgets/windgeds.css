@@ -1,0 +1,184 @@
+.user_profile_item {
+    display: flex;
+    cursor: pointer;
+    margin: 10px 0;
+    padding: 8px 5px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.user_profile_item h6 {
+    color: var(--color-primary);
+}
+
+a {
+    text-decoration: none;
+}
+
+.user_profile_item:hover {
+    background-color: var(--divider);
+}
+
+
+.widgets_home_right_ui h5 {
+    font-size: 17px;
+    color: var(--color-secondary);
+}
+
+.user_pages_ui_widgets .images_icon_user img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.user_pages_ui_widgets .images_icon_user h6 {
+    font-size: 15px;
+    color: var(--color-primary);
+}
+
+.user_pages_ui_widgets .option_menu_tow_item {
+    margin-left: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.user_pages_ui_widgets .option_menu_tow_item:hover {
+    background-color: var(--divider);
+}
+
+.user_pages_ui_widgets .option_menu_tow_item span svg {
+    font-size: 25px;
+    color: var(--color-secondary);
+    margin-right: 10px;
+}
+
+.user_pages_ui_widgets .option_menu_tow_item span {
+    font-size: 14px;
+    color: var(--color-secondary);
+}
+
+.don_t_have_req {
+    color: var(--color-secondary);
+    margin: 20px 0;
+    display: block;
+    font-size: 15px;
+}
+
+/* Friend Request  */
+.friends_widgets_item {
+    padding: 10px;
+    transition: .3s;
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+.friends_widgets_item:hover {
+    background: var(--divider);
+}
+
+.friends_widgets_item .users_vx_info {
+    display: flex;
+}
+
+.friends_widgets_item .images {
+    margin-right: 10px;
+}
+
+.friends_widgets_item .user_xx_info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.friends_widgets_item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.friends_widgets_item .info span {
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+    color: var(--color-secondary);
+}
+
+.friends_widgets_item .info h6 {
+    font-size: 17px;
+    text-transform: capitalize;
+    color: var(--color-primary);
+}
+
+.friends_widgets_item .request_time_ago {
+    display: flex;
+    color: var(--color-secondary);
+    justify-content: end;
+}
+
+.action_users_xx_dg {
+    display: flex;
+    justify-content: end;
+}
+
+.delete_btn {
+    background-color: var(--dark-color-secondary);
+}
+
+.heading_contact_widgets_ui .right_side_ {
+    display: flex;
+
+}
+
+.heading_contact_widgets_ui .right_side_ span {
+    font-size: 22px;
+    color: var(--color-secondary);
+    margin: 0 10px;
+}
+
+
+
+
+/* Activated Friends */
+.user_item_xx_db {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 2px 0;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.user_item_xx_db:hover {
+    background: var(--divider);
+}
+
+.user_item_xx_db .images_user {
+    position: relative;
+    margin-right: 10px;
+}
+
+.user_item_xx_db .images_user img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.activated_green {
+    width: 10px;
+    position: absolute;
+    height: 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    background: green;
+    right: 0;
+    bottom: 0;
+    z-index: 555;
+}
+
+.name_user_widgets {
+    color: var(--color-primary);
+}

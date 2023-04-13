@@ -1,0 +1,44 @@
+.footer_login_area {
+    background-color: #ffff;
+}
+
+.top_label {
+    display: flex;
+}
+
+.top_label a {
+    color: var(--color-secondary);
+    font-size: 13px;
+    padding: 0 5px;
+}
+
+.top_label a:hover {
+    text-decoration: underline;
+}
+
+.top_label a:last-child {
+    padding: 0 8px;
+    font-size: 12px;
+    border: 1px solid var(--color-secondary);
+}
+
+.bottom_label {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bottom_label a {
+    font-size: 12px;
+    padding: 0 8px;
+    color: var(--color-secondary);
+}
+
+.bottom_label a:hover {
+    text-decoration: underline;
+}
+
+.footer_area_ui p {
+    display: flex;
+    padding: 8px;
+    font-size: 11px;
+}

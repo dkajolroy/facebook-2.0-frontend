@@ -1,0 +1,26 @@
+.sign_ui__screen {
+    background: #F0F2F5;
+}
+
+.login_main_ui {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.left_witter_ {
+    margin-bottom: 15vh;
+}
+
+.left_witter_ h2 {
+    font-size: 65px;
+    font-weight: bold;
+    color: var(--blue-color);
+}
+
+.left_witter_ p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+    font-size: 28px;
+}

@@ -1,0 +1,79 @@
+.loading_box {
+    margin: 10px 0;
+    background: var(--bg-primary);
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0 2px 2px var(--shadow-1);
+}
+
+.card {
+    width: 100%;
+    background-color: var(--bg-primary);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.image img {
+    display: block;
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+}
+
+.content {
+    margin: 5px 0;
+}
+
+h4 {
+    margin: 0 0 1rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.circle {
+    margin: 5px 0;
+    border-radius: 50%;
+}
+
+.loading .image,
+.loading h4,
+.circle,
+.description {
+    background-color: var(--bg-primary);
+    background: linear-gradient(100deg,
+            rgba(255, 255, 255, 0) 40%,
+            var(--bg-forth)50%,
+            rgba(255, 255, 255, 0) 60%) var(--skeleton);
+    background-size: 200% 100%;
+    background-position-x: 180%;
+    animation: 1s loading ease-in-out infinite;
+}
+
+@keyframes loading {
+    to {
+        background-position-x: -20%;
+    }
+}
+
+.loading h4 {
+    border-radius: 4px;
+    animation-delay: .05s;
+    margin: 5px 0;
+}
+
+.circle {
+    border-radius: 50%;
+    animation-delay: .05s;
+    margin: 5px 0;
+}
+
+.description {
+    border-radius: 4px;
+    margin: 5px 0;
+    animation-delay: .06s;
+}
+
+.heading {
+    display: flex;
+    padding: 10px;
+}

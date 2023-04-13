@@ -1,0 +1,28 @@
+.friends_of_about_profile {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.friends_of_about_profile .user_image_friends_jj img {
+    height: 100%;
+    width: 100%;
+    transition: .2s;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.friends_of_about_profile .user_image_friends_jj img:hover {
+    opacity: .8;
+}
+
+.desc_bottom_about_kk h6 {
+    color: var(--color-primary);
+    font-size: 16px;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.min_height_tab {
+    min-height: 80vh;
+
+}

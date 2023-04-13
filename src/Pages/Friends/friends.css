@@ -1,0 +1,58 @@
+.friends_pages_ui {
+    margin-top: 55px;
+}
+
+.friends_layout_xx {
+    padding: 30px;
+    height: 100%;
+    position: fixed;
+    width: 75%;
+    background-color: var(--main-background);
+}
+
+@media (max-width:768px) {
+    .friends_layout_xx {
+        width: 100%;
+    }
+
+    .friends_pages_ui {
+        margin-top: 100px;
+    }
+}
+
+.total_item_fgd {
+    display: flex;
+    width: 100%;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.total_item_fgd .suggest_menu {
+    width: 100%;
+}
+
+.friends_layout_xx h5 {
+    margin-bottom: 20px;
+    color: var(--color-primary);
+}
+
+.see_more_request_xx_fd button {
+    margin-top: 20px;
+    color: var(--blue-color);
+    font-weight: 500;
+    font-size: 17px;
+    background-color: var(--bg-forth);
+}
+
+.see_more_request_xx_fd button:hover {
+    background-color: var(--bg-secondary);
+    color: var(--blue-color);
+}
+
+.see_more_request_xx_fd span {
+    font-size: 22px;
+}
+
+.cd_dcd_xx {
+    color: gray;
+}

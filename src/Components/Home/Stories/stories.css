@@ -1,0 +1,134 @@
+.stories_xx_main_section {
+    display: flex;
+    margin-top: 20px;
+}
+
+.stories_items_xx {
+    position: relative;
+    width: 20%;
+    overflow: hidden;
+    margin: 0 4px;
+    height: 175px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px var(--shadow-1);
+    background: var(--dark-color-secondary);
+}
+
+.stories_items_xx .story {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transition: .3s;
+    left: 0;
+}
+
+.stories_items_xx .story img {
+    width: 100%;
+    height: 100%;
+    transition: .3s;
+    object-fit: cover;
+}
+
+.stories_items_xx .user_avatar {
+    position: absolute;
+    top: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    left: 10px;
+    z-index: 1;
+}
+
+.stories_items_xx .user_avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid var(--blue-color);
+}
+
+.stories_items_xx h6 {
+    position: absolute;
+    bottom: 10px;
+    font-size: 14px;
+    left: 10px;
+    z-index: 2;
+    color: var(--light-blue-color);
+}
+
+.stories_items_xx::after {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.311);
+    content: '';
+}
+
+.stories_items_xx:hover .story img {
+    transform: scale(1.2);
+}
+
+/*  Create Story */
+
+.stories_items_xx .images_user {
+    height: 70%;
+    overflow: hidden;
+    position: relative;
+}
+
+.stories_items_xx .images_user img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s;
+}
+
+.stories_items_xx:hover .images_user img {
+    transform: scale(1.2);
+}
+
+.stories_items_xx .info_creator {
+    position: absolute;
+    z-index: 5;
+    text-align: center;
+    box-shadow: 0 0 5px black;
+    top: 70%;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    background-color: var(--bg-primary);
+}
+
+.stories_items_xx .info_creator span {
+    font-size: 20px;
+    display: flex;
+    position: absolute;
+    top: -10px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--blue-color);
+    width: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 3px solid #ffff;
+    padding: 5px;
+    overflow: hidden;
+    height: 40px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.stories_items_xx p {
+    position: absolute;
+    width: 100%;
+    font-size: 14px;
+    color: var(--color-primary);
+    left: 50%;
+    bottom: 6%;
+    font-weight: 500;
+    transform: translateX(-50%);
+}

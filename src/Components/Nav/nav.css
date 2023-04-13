@@ -1,0 +1,235 @@
+.main_nav_bars {
+    background: var(--bg-primary);
+    position: fixed;
+    top: 0;
+    padding: 4px 0;
+    z-index: 5000;
+    width: 100%;
+    box-shadow: 0 1px 5px var(--shadow-1);
+}
+
+.main_nav_groupe li:hover {
+    border-radius: 8px;
+    background-color: var(--bg-secondary);
+}
+
+.main_nav_bars .main_logo a span {
+    font-size: 40px;
+    display: flex;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+
+
+.search_bar_groupe {
+    margin: 0 5px;
+}
+
+.search_bar_groupe input {
+    padding: 8px 35px;
+    border: none;
+}
+
+.search_bar_groupe {
+    position: relative;
+}
+
+.search_bar_groupe input {
+    border-radius: 30px;
+    font-size: 15px;
+    color: var(--color-primary);
+    background-color: var(--bg-secondary);
+}
+
+.search_bar_groupe input::placeholder {
+    color: var(--color-secondary);
+}
+
+.search_bar_groupe input:focus {
+    color: var(--color-primary);
+    background-color: var(--bg-forth);
+    border-color: #212529;
+    outline: 0;
+}
+
+.search_bar_groupe span {
+    position: absolute;
+    top: 7px;
+    left: 12px;
+    color: var(--color-secondary);
+}
+
+.search_bar_md_screen_icon {
+    color: var(--color-primary);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: .2s;
+    background-color: var(--bg-forth);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+
+.search_bar_md_screen_icon:hover {
+    background-color: var(--bg-third);
+}
+
+/* Nav Menu Item */
+.main_nav_groupe {
+    height: 100%;
+}
+
+.main_nav_groupe ul {
+    list-style: none;
+    margin: 0;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.main_nav_groupe li {
+    flex: 1;
+    position: relative;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.main_nav_groupe li:last-child a {
+    font-size: 22px;
+}
+
+.main_nav_groupe li a {
+    width: 100%;
+    display: block;
+    height: 100%;
+    color: var(--color-secondary);
+    font-size: 25px;
+}
+
+.main_nav_groupe li .active {
+    transition: .3s;
+    color: var(--blue-color);
+}
+
+.main_nav_groupe li .active::before {
+    content: "";
+    width: 90%;
+    height: 3px;
+    background: var(--blue-color);
+    bottom: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+
+
+/* Profile End ACtion */
+.profile_item_action {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.profile_item_action ul {
+    display: flex;
+    list-style: none;
+    height: 100%;
+    align-items: center;
+    justify-content: end;
+}
+
+.profile_item_action .profile_link_ui img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 3px 5px;
+}
+
+.profile_item_action li {
+    display: flex;
+    width: 35px;
+    height: 35px;
+}
+
+.profile_item_action .profile_link_ui a {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.profile_item_action .profile_link_ui a h6 {
+    font-size: 16px;
+    padding-right: 2px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.profile_item_action .profile_action_icon {
+    font-size: 22px;
+    background: var(--bg-third);
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+    color: var(--color-primary);
+    align-items: center;
+    justify-content: center;
+    transition: .2s;
+    margin: 0 5px;
+}
+
+
+.profile_item_action .profile_action_icon:hover {
+    background-color: var(--bg-forth);
+}
+
+.profile_item_action .profile_link_ui {
+    border-radius: 30px;
+    transition: .2s;
+}
+
+.profile_item_action .profile_link_ui:hover {
+    background-color: var(--bg-forth);
+}
+
+.profile_item_action .profile_link_ui .active {
+    height: 100%;
+    width: 100%;
+    color: var(--blue-color);
+    border-radius: 30px;
+    background-color: var(--bg-forth);
+}
+
+/* Profile End SEtting Modal  */
+
+.active_setting {
+    color: var(--blue-color) !important;
+    background-color: var(--blue-color-light);
+}
+
+
+/* Media Query */
+@media (max-width: 768px) {
+    .stories_xx_main_section {
+        margin-top: 55px !important;
+    }
+}
+
+@media (max-width:900px) {
+    .profile_item_action .profile_link_ui a {
+        margin-right: 5px;
+    }
+
+    .profile_item_action .profile_action_icon {
+        margin: 0 2px;
+        width: 35px;
+        height: 35px;
+    }
+}

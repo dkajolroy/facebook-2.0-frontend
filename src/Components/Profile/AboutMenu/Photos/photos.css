@@ -1,0 +1,16 @@
+.image_items_of_photos {
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.image_items_of_photos img {
+    width: 100%;
+    transition: .2s;
+    cursor: pointer;
+    height: 150px;
+    object-fit: cover;
+}
+
+.image_items_of_photos img:hover {
+    transform: scale(1.2);
+}

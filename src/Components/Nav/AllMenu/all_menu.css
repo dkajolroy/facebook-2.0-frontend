@@ -1,0 +1,132 @@
+.all_menu_modal_customize {
+    width: 624px;
+    height: 88vh;
+    border: 1px solid var(--border-color) !important;
+    outline: none;
+    border-radius: 10PX;
+    margin: 0 20px !important;
+    background-color: var(--bg-secondary);
+}
+
+.all_menu_ui_ff {
+    padding: 10px 0;
+}
+
+.profile__setting_ui .heading_all_menu h3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin: 0 10px 10px;
+    color: var(--color-primary);
+}
+
+.profile__setting_ui .all_menus {
+    background: var(--bg-primary);
+    padding: 15px 10px;
+    box-shadow: 0 0px 2px var(--shadow-1);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.back_ground_all_side_nav {
+    background: var(--bg-primary);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.profile__setting_ui .social_menus h5 {
+    color: var(--color-primary);
+    font-size: 17px;
+    margin: 15px 0;
+}
+
+.profile__setting_ui .all_menu_items {
+    display: flex;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.profile__setting_ui .all_menu_items:hover {
+    background: var(--bg-third);
+}
+
+.all_menu_icons img {
+    width: 35px;
+    margin-right: 10px;
+}
+
+.all_menu_items .all_menu_details h6 {
+    color: var(--color-primary);
+    font-size: 16px;
+}
+
+.all_menu_items .all_menu_details p {
+    font-size: 13px;
+    color: var(--color-secondary);
+    line-height: 18px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+/* Side Menu */
+
+.side_menu_all {
+    position: -webkit-sticky;
+    position: sticky;
+    padding: 10px;
+    top: 0;
+    width: 200px;
+}
+
+.back_ground_all_side_nav {
+    box-shadow: 0 0px 2px var(--shadow-1);
+}
+
+.back_ground_all_side_nav .heading h3 {
+    padding: 10px 10px 0 10px;
+    font-size: 20px;
+    color: var(--color-primary);
+}
+
+.create_side_items {
+    display: flex;
+    cursor: pointer;
+    margin: 0;
+    align-items: center;
+    padding: 7px 8px;
+    border-radius: 5px;
+}
+
+.create_side_items .icon_into {
+    filter: invert(.8);
+}
+
+.create_side_items .icon_back {
+    background-color: var(--hover1);
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.create_side_items span {
+    margin-left: 10px;
+    color: var(--color-primary);
+    font-size: 16px;
+}
+
+.create_side_items:hover {
+    background: var(--bg-third);
+}
+
+.profile__setting_ui .rc-scrollbars-thumb {
+    background: var(--color-third) !important;
+}

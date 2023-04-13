@@ -1,0 +1,26 @@
+.unsupported_error_file_upload {
+    background: var(--color-secondary);
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+.error_message_show {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.error_message_show span {
+    font-size: 22px;
+    margin-right: 10px;
+    font-weight: bold;
+    color: var(--bg-primary);
+}
+
+.error_message_show.animate__animated.animate__fadeInLeft {
+    animation-duration: .4s;
+}

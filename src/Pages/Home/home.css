@@ -1,0 +1,34 @@
+.home_section {
+    background-color: var(--main-background);
+    min-height: 95vh;
+}
+
+.home_ui_nav_area {
+    margin-top: 55px;
+}
+
+.bottom_sidebar_shortcut h5 {
+    font-size: 17px;
+    color: var(--color-secondary);
+}
+
+.side_bars_main_xx_gb,
+.widgets_home_right_ui {
+    position: fixed;
+    width: 25%;
+    padding: 0 10px;
+}
+
+.side_bars_main_xx_gb {
+    left: 0;
+    top: 60px;
+}
+
+.widgets_home_right_ui {
+    right: 0;
+    top: 60px;
+}
+
+.scroll_container_center .rc-scrollbars-thumb {
+    display: none !important;
+}

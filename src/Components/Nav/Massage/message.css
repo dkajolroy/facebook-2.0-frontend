@@ -1,0 +1,7 @@
+.message__setting_ui {
+    color: var(--color-primary);
+}
+
+.message__setting_ui h2 {
+    margin: 10px;
+}

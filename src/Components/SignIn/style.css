@@ -1,0 +1,276 @@
+.login__form__ui {
+    background: #fff;
+    padding: 15px;
+    box-shadow: 0px 5px 20px -2px var(--shadow-1);
+    border-radius: 10px;
+}
+
+.email_input_g {
+    position: relative;
+}
+
+.email_input_g input {
+    margin-bottom: 12px;
+    padding: 13px;
+    border: 1px solid rgb(173, 173, 173);
+}
+
+.email_input_g input:focus {
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+    caret-color: #1877f2;
+}
+
+.email_input_g input::placeholder {
+    color: rgb(147, 147, 147);
+    font-size: 17px;
+}
+
+.email_input_g .eay_pass {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 17px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.email_input_g .eay_pass:hover {
+    background-color: var(--color-secondary);
+}
+
+.login__form__ui .action_group button {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--bg-primary);
+    display: block;
+    margin: 0 auto;
+    padding: 8px 0;
+}
+
+.login__form__ui .action_group button:first-child {
+    background-color: var(--blue-color);
+    width: 100%;
+    color: #fff;
+}
+
+.login__form__ui .action_group button:last-child {
+    background-color: var(--green-color);
+    padding: 8px 20px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+hr {
+    background-color: var(--color-secondary);
+}
+
+.login__form__ui .action_group button:hover {
+    opacity: .9;
+}
+
+.login__form__ui .action_group a {
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin: 18px 0;
+}
+
+.login__form__ui .action_group a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* / */
+.ReactModal__Content {
+    margin: 60px 0;
+}
+
+.sign_up_ui_form {
+    border-radius: 8px;
+    padding: 5px;
+    background-color: var(--bg-primary);
+    box-shadow: 0px 5px 20px -2px var(--shadow-1);
+}
+
+.sign_up__form .close_icon {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sign_up__form .sign_up_text h2 {
+    margin: 0;
+    font-weight: bold;
+}
+
+.sign_up__form .sign_up_text p {
+    color: var(--color-secondary);
+    font-size: 15px;
+}
+
+.sign_up__form .form_top {
+    padding: 10px;
+}
+
+.sign_ui_input_groupe {
+    padding: 10px;
+}
+
+.sign_up_input_group {
+    position: relative;
+    margin-top: 10px;
+}
+
+.sign_up_input_group span {
+    font-size: 13px;
+    display: block;
+    color: var(--color-secondary);
+}
+
+.sign_ui_input_groupe .action_group span {
+    font-size: 11px;
+    display: block;
+    margin: 10px 0;
+    line-height: 15px !important;
+    color: var(--color-secondary);
+}
+
+.sign_ui_input_groupe .action_group button {
+    display: block;
+    background-color: var(--green-color);
+    color: var(--bg-primary);
+    width: 50%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px auto;
+}
+
+.sign_up_input_group .gender_input_groupe {
+    border: 1px solid var(--border-color);
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign_up_input_group .gender_input_groupe label {
+    width: 100%;
+}
+
+.sign_up_input_group input {
+    background-color: rgb(245, 245, 245);
+}
+
+
+
+/* Error Message Design */
+.error_message_input {
+    position: absolute;
+    left: -260px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #be4b49;
+    border-radius: 2px;
+    box-shadow: 0 0 0 1px rgb(139 3 0 / 75%), 0 1px 10px rgb(0 0 0 / 35%);
+    color: #fff;
+    z-index: 50;
+    width: 250px;
+
+}
+
+.error_message_input.first_name {
+    left: -257px !important;
+}
+
+.error_message_input .error_arrow {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 10px solid #be4b49;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 100%;
+    z-index: 100;
+}
+
+.error_message_input span {
+    color: #fff;
+    font-size: 14px;
+    padding: 8px;
+}
+
+.response_error_message {
+    background: brown;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    padding: 2px 0;
+}
+
+/* Media Query */
+
+@media (max-width:768px) {
+    .ReactModal__Content {
+        margin: 30px 0;
+    }
+
+    .left_witter_ {
+        text-align: center;
+        margin-bottom: 50px !important;
+    }
+
+    .left_witter_ p {
+        font-size: 22px !important;
+    }
+
+    .login_main_ui {
+        height: auto !important;
+        padding-top: 50px;
+    }
+
+    .error_group_res {
+        height: 30px;
+    }
+
+    .error_message_input {
+        left: 50% !important;
+        transform: translateX(-50%);
+        top: -5px !important;
+        z-index: 50;
+        width: 100% !important;
+    }
+
+    .error_message_input span {
+        padding: 5px;
+    }
+
+    .error_message_input .error_arrow {
+        transform: rotate(90deg);
+        top: auto;
+        left: 50%;
+        bottom: -15px;
+    }
+}
+
+@media (max-width:992px) {
+    .error_message_input {
+        width: 190px;
+        left: -200px;
+    }
+
+}

@@ -1,0 +1,109 @@
+.view_photo_post_and_profile {
+    height: 100vh;
+    position: relative;
+    background-color: var(--bg-primary);
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image_items_all {
+    height: 70vh;
+    max-width: 80%;
+}
+
+.tob_bar_area_to_position {
+    position: absolute;
+    z-index: 822;
+    top: 0;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row_label_fb {
+    display: flex;
+    align-items: center;
+}
+
+.tob_bar_area_to_position .row_label_fb span {
+    height: 40px;
+    width: 40px;
+    color: var(--blue-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin-right: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.tob_bar_area_to_position .row_label span {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    transition: .2s;
+    align-items: center;
+    border-radius: 50%;
+    color: var(--color-primary);
+    font-size: 22px;
+    background-color: var(--bg-third);
+}
+
+.tob_bar_area_to_position .row_label span:hover {
+    background-color: var(--dark-bg-third);
+}
+
+.tob_bar_area_to_position .user_account {
+    display: flex;
+    align-items: center;
+}
+
+.user_account img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.user_account h4 {
+    color: var(--color-primary);
+    font-size: 18px;
+    padding: 0 8px;
+}
+
+.image_items_all.animate__animated.animate__fadeIn {
+    animation-duration: .3s;
+}
